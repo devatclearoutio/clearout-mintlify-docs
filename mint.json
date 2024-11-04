@@ -109,11 +109,15 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": [
+        "api-reference/introduction"
+      ]
     },
     {
       "group": "UI References",
-      "pages": ["components/reference-ui"]
+      "pages": [
+        "components/reference-ui"
+      ]
     },
     {
       "group": "Get Started",
@@ -137,38 +141,51 @@
             "guides/account-setup/how-to-import-and-export-diff-file-form",
             "guides/account-setup/profile-and-notification-customizations",
             "guides/account-setup/team-collaboration-overview",
-             "guides/account-setup/integration-overview"
+            "guides/account-setup/integration-overview"
           ]
         }
       ]
     },
-    
     {
       "group": "Email Verifier",
       "icon": "object-subtract",
-      "pages": ["guides/quick-validation", "guides/bulk-validation"]
+      "pages": [
+        "guides/quick-validation",
+        "guides/bulk-validation"
+      ]
     },
     {
       "group": "Email Finder",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Prospecting",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Reverse Lookup",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Apps",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
-    
     {
       "group": "Tools",
       "icon": "object-subtract",
@@ -201,7 +218,9 @@
     {
       "group": "Be an Integration partner",
       "icon": "object-subtract",
-      "pages": ["integrations/#"]
+      "pages": [
+        "integrations/#"
+      ]
     },
     {
       "group": "Connect Support",
@@ -214,7 +233,10 @@
     {
       "group": "Featured Answered",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#", "troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#",
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Account Management",
@@ -228,27 +250,36 @@
     {
       "group": "Bulk activities",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Javascript Widget",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Data security",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Best practices",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://twitter.com/ClearoutIo",
+    "github": "https://github.com/clearoutio",
+    "linkedin": "https://www.linkedin.com/company/clearout-io",
+    "youtube": "https://www.youtube.com/channel/UCq5yYOL1LBmUnAQdRAuVMPA"
   }
 }
