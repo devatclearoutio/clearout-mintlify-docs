@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Clearout knowledge base | Help Center",
+  "name": "Clearout Knowledge Base | Help Center",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
@@ -94,8 +94,26 @@
     {
       "group": "Introduction",
       "pages": [
-        "documentation/welcome",
-        "documentation/quick-start",
+        {
+          "group": "Welcome",
+          "pages": [
+            "documentation/welcome/navigating-knowledge-base"
+          ]
+        },
+        {
+          "group": "Quickstart Guide",
+          "pages": [
+            "documentation/quickstart-guide/quickstart-guide",
+            {
+              "group": "Clearout Platform",
+              "pages": [
+                "documentation/quickstart-guide/clearout-platform/overview",
+                "documentation/quickstart-guide/clearout-platform/product-intro-video",
+                "documentation/quickstart-guide/clearout-platform/features-that-stand-out"
+              ]
+            }
+          ]
+        },
         "documentation/products",
         "documentation/use-case"
       ]
@@ -109,17 +127,21 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": [
+        "api-reference/introduction"
+      ]
     },
     {
       "group": "UI References",
-      "pages": ["components/reference-ui"]
+      "pages": [
+        "components/reference-ui"
+      ]
     },
     {
       "group": "Get Started",
       "pages": [
         {
-          "group": "Create a Free Accounts",
+          "group": "Create a Free Account",
           "pages": [
             "guides/create-a-free-account/benefits-and-why",
             "guides/create-a-free-account/explore-feature-with-free-credits",
@@ -137,38 +159,51 @@
             "guides/account-setup/how-to-import-and-export-diff-file-form",
             "guides/account-setup/profile-and-notification-customizations",
             "guides/account-setup/team-collaboration-overview",
-             "guides/account-setup/integration-overview"
+            "guides/account-setup/integration-overview"
           ]
         }
       ]
     },
-    
     {
       "group": "Email Verifier",
       "icon": "object-subtract",
-      "pages": ["guides/quick-validation", "guides/bulk-validation"]
+      "pages": [
+        "guides/quick-validation",
+        "guides/bulk-validation"
+      ]
     },
     {
       "group": "Email Finder",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Prospecting",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Reverse Lookup",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
     {
       "group": "Apps",
       "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": [
+        "guides/#",
+        "guides/#"
+      ]
     },
-    
     {
       "group": "Tools",
       "icon": "object-subtract",
@@ -199,9 +234,11 @@
       ]
     },
     {
-      "group": "Be an Integration partner",
+      "group": "Be an Integration Partner",
       "icon": "object-subtract",
-      "pages": ["integrations/#"]
+      "pages": [
+        "integrations/#"
+      ]
     },
     {
       "group": "Connect Support",
@@ -212,9 +249,12 @@
       ]
     },
     {
-      "group": "Featured Answered",
+      "group": "Featured Answers",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#", "troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#",
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Account Management",
@@ -226,24 +266,32 @@
       ]
     },
     {
-      "group": "Bulk activities",
+      "group": "Bulk Activities",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
       "group": "Javascript Widget",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
-      "group": "Data security",
+      "group": "Data Security",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     },
     {
-      "group": "Best practices",
+      "group": "Best Practices",
       "icon": "object-subtract",
-      "pages": ["troubleshooting/#"]
+      "pages": [
+        "troubleshooting/#"
+      ]
     }
   ],
   "footerSocials": {
