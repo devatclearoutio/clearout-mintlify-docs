@@ -91,31 +91,38 @@
     }
   ],
   "navigation": [
+    
     {
-      "group": "Introduction",
+      "group": "Welcome",
       "pages": [
-        {
-          "group": "Welcome",
-          "pages": [
-            "documentation/welcome/navigating-knowledge-base"
-          ]
-        },
-        {
-          "group": "Quickstart Guide",
-          "pages": [
-            "documentation/quickstart-guide/quickstart-guide",
-            {
-              "group": "Clearout Platform",
-              "pages": [
-                "documentation/quickstart-guide/clearout-platform/overview",
-                "documentation/quickstart-guide/clearout-platform/product-intro-video",
-                "documentation/quickstart-guide/clearout-platform/features-that-stand-out"
-              ]
-            }
-          ]
-        },
-        "documentation/products",
-        "documentation/use-case"
+        "documentation/welcome/welcome-message",
+        "documentation/welcome/popular-articles",
+        "documentation/welcome/clearout-moto-and-where-to-start",
+        "documentation/welcome/free-trial"
+      ]
+    },
+    {
+      "group": "Quick start",
+      "pages": [
+        "documentation/quickstart/introductry-vid",
+        "documentation/quickstart/how-to-navigate-through-knowledge-base"
+      ]
+    },
+    {
+      "group": "Products",
+      "pages": [
+        "documentation/products/short-overview",
+        "documentation/products/short-intro-vid",
+        "documentation/products/highlighting-features",
+        "documentation/products/pricing"
+      ]
+    },
+    {
+      "group": "Use cases",
+      "pages": [
+        "documentation/use-cases/testimonials",
+        "documentation/use-cases/case-studies",
+        "documentation/use-cases/rating-and-review"
       ]
     },
     {
@@ -127,82 +134,104 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "UI References",
-      "pages": [
-        "components/reference-ui"
-      ]
+      "pages": ["components/reference-ui"]
     },
     {
       "group": "Get Started",
+      "pages": ["guides/get-started"]
+    },
+    {
+      "group": "Create a Free Account",
       "pages": [
-        {
-          "group": "Create a Free Account",
-          "pages": [
-            "guides/create-a-free-account/benefits-and-why",
-            "guides/create-a-free-account/explore-feature-with-free-credits",
-            "guides/create-a-free-account/short-vid-on-how",
-            "guides/create-a-free-account/steps-by-step-instructions",
-            "guides/create-a-free-account/tips-for-best-use-these-free-credits"
-          ]
-        },
-        {
-          "group": "Account Setup",
-          "pages": [
-            "guides/account-setup/system-requirements",
-            "guides/account-setup/quick-setup-guide",
-            "guides/account-setup/get-familiar-with-dashboard",
-            "guides/account-setup/how-to-import-and-export-diff-file-form",
-            "guides/account-setup/profile-and-notification-customizations",
-            "guides/account-setup/team-collaboration-overview",
-            "guides/account-setup/integration-overview"
-          ]
-        }
+        "guides/create-a-free-account/benefits-and-why",
+        "guides/create-a-free-account/explore-feature-with-free-credits",
+        "guides/create-a-free-account/short-vid-on-how",
+        "guides/create-a-free-account/steps-by-step-instructions",
+        "guides/create-a-free-account/tips-for-best-use-these-free-credits"
+      ]
+    },
+    {
+      "group": "Account Setup",
+      "pages": [
+        "guides/account-setup/system-requirements",
+        "guides/account-setup/quick-setup-guide",
+        "guides/account-setup/get-familiar-with-dashboard",
+        "guides/account-setup/how-to-import-and-export-diff-file-form",
+        "guides/account-setup/profile-and-notification-customizations",
+        "guides/account-setup/team-collaboration-overview",
+        "guides/account-setup/integration-overview"
       ]
     },
     {
       "group": "Email Verifier",
       "icon": "object-subtract",
       "pages": [
-        "guides/quick-validation",
-        "guides/bulk-validation"
+        "guides/email-verifier/introduction",
+        "guides/email-verifier/step-by-step-introduction",
+        "guides/email-verifier/video-to-guide",
+        "guides/email-verifier/result-status-analysis",
+        "guides/email-verifier/how-clearout-maintains-accuracy-and-quality-result",
+        "guides/email-verifier/ai-verdict",
+        "guides/email-verifier/exporting-results"
+      ]
+    },
+    {
+      "group": "Quick Validation",
+      "icon": "object-subtract",
+      "pages": [
+        "guides/quick-validation/instructions-with-vid",
+        "guides/quick-validation/supported-file-formats",
+        "guides/quick-validation/understanding-results",
+        "guides/quick-validation/why"
+      ]
+    },
+    {
+      "group": "Bulk Vadldation",
+      "icon": "object-subtract",
+      "pages": [
+        "guides/bulk-validation/supported-file-format",
+        "guides/bulk-validation/instructions-with-vid",
+        "guides/bulk-validation/result-analysis",
+        "guides/bulk-validation/how-it-is-beneficial-with-maximum-accuracy"
       ]
     },
     {
       "group": "Email Finder",
       "icon": "object-subtract",
       "pages": [
-        "guides/#",
-        "guides/#"
+        "guides/email-finder/single-and-bulk-finder",
+        "guides/email-finder/linkedin-email-finder",
+        "guides/email-finder/email-confidence-score",
+        "guides/email-finder/exporting-results"
       ]
     },
     {
       "group": "Prospecting",
       "icon": "object-subtract",
       "pages": [
-        "guides/#",
-        "guides/#"
+        "guides/prospecting/guide",
+        "guides/prospecting/understanding-dashboard",
+        "guides/prospecting/advanced-filtering-options",
+        "guides/prospecting/working-with-linkedin-and-wellfound",
+        "guides/prospecting/real-time-lead-discovery"
       ]
     },
     {
       "group": "Reverse Lookup",
       "icon": "object-subtract",
       "pages": [
-        "guides/#",
-        "guides/#"
+        "guides/reverse-lookup/overview-and-guide",
+        "guides/reverse-lookup/enhancing-lead-scores-with-reverse-data"
       ]
     },
     {
       "group": "Apps",
       "icon": "object-subtract",
-      "pages": [
-        "guides/#",
-        "guides/#"
-      ]
+      "pages": ["guides/#", "guides/#"]
     },
     {
       "group": "Tools",
@@ -211,6 +240,26 @@
         "guides/chrome-extension",
         "guides/google-sheets-add-ons",
         "guides/wordpress-plugin"
+      ]
+    },
+    {
+      "group": "Team Management",
+      "icon": "object-subtract",
+      "pages": [
+        "guides/team-management/how-to-collaborate-and-manage",
+        "guides/team-management/all-feature-and-tracking-activities",
+        "guides/team-management/benefits",
+        "guides/team-management/credits-management"
+      ]
+    },
+    {
+      "group": "Credit Management",
+      "icon": "object-subtract",
+      "pages": [
+        "guides/credit-management/credit-monitoring",
+        "guides/credit-management/usage-history",
+        "guides/credit-management/credit-refill-and-plans",
+        "guides/credit-management/plans-for-team"
       ]
     },
     {
@@ -236,64 +285,31 @@
     {
       "group": "Be an Integration Partner",
       "icon": "object-subtract",
-      "pages": [
-        "integrations/#"
-      ]
+      "pages": ["integrations/#"]
     },
     {
       "group": "Connect Support",
       "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/how-to-work-with-support",
-        "troubleshooting/clearout-slas"
-      ]
+      "pages": ["troubleshooting/connect-support/descriptions"]
     },
     {
-      "group": "Featured Answers",
+      "group": "How to work with support",
       "icon": "object-subtract",
       "pages": [
-        "troubleshooting/#",
-        "troubleshooting/#"
-      ]
-    },
-    {
-      "group": "Account Management",
-      "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/not-able-to-signup",
-        "troubleshooting/reset-password",
-        "troubleshooting/transfer"
-      ]
-    },
-    {
-      "group": "Bulk Activities",
-      "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/#"
-      ]
-    },
-    {
-      "group": "Javascript Widget",
-      "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/#"
-      ]
-    },
-    {
-      "group": "Data Security",
-      "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/#"
-      ]
-    },
-    {
-      "group": "Best Practices",
-      "icon": "object-subtract",
-      "pages": [
-        "troubleshooting/#"
+        "troubleshooting/how-to-work-with-support/guide",
+        "troubleshooting/how-to-work-with-support/urgency-with-issue-categories",
+        "troubleshooting/how-to-work-with-support/history-dashboard"
       ]
     }
   ],
+
+  "redirects": [
+    {
+      "source": "",
+      "destination": ""
+    }
+  ],
+
   "footerSocials": {
     "x": "https://twitter.com/ClearoutIo",
     "github": "https://github.com/clearoutio",
