@@ -71,6 +71,11 @@
     {
       "name": "Troubleshooting",
       "url": "troubleshooting"
+    },
+    {
+      "name": "UI Reference",
+      "url": "ui-reference",
+      "isDefaultHidden": true
     }
   ],
   "anchors": [
@@ -91,45 +96,13 @@
     }
   ],
   "navigation": [
-    
     {
-      "group": "Welcome",
+      "group": "Introduction",
       "pages": [
-        "documentation/welcome/welcome-message",
-        "documentation/welcome/popular-articles",
-        "documentation/welcome/clearout-moto-and-where-to-start",
-        "documentation/welcome/free-trial"
-      ]
-    },
-    {
-      "group": "Quick start",
-      "pages": [
-        "documentation/quickstart/introductry-vid",
-        "documentation/quickstart/how-to-navigate-through-knowledge-base"
-      ]
-    },
-    {
-      "group": "Products",
-      "pages": [
-        "documentation/products/short-overview",
-        "documentation/products/short-intro-vid",
-        "documentation/products/highlighting-features",
-        "documentation/products/pricing"
-      ]
-    },
-    {
-      "group": "Use cases",
-      "pages": [
-        "documentation/use-cases/testimonials",
-        "documentation/use-cases/case-studies",
-        "documentation/use-cases/rating-and-review"
-      ]
-    },
-    {
-      "group": "SET UP CLEAROUT",
-      "pages": [
-        "get-started/create-an-account",
-        "get-started/products-and-prices"
+        "introduction/welcome",
+        "introduction/quickstart",
+        "introduction/products",
+        "introduction/usecases"
       ]
     },
     {
@@ -137,105 +110,35 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "UI References",
-      "pages": ["components/reference-ui"]
-    },
-    {
       "group": "Get Started",
-      "pages": ["guides/get-started"]
-    },
-    {
-      "group": "Create a Free Account",
-      "pages": [
-        "guides/create-a-free-account/benefits-and-why",
-        "guides/create-a-free-account/explore-feature-with-free-credits",
-        "guides/create-a-free-account/short-vid-on-how",
-        "guides/create-a-free-account/steps-by-step-instructions",
-        "guides/create-a-free-account/tips-for-best-use-these-free-credits"
-      ]
-    },
-    {
-      "group": "Account Setup",
-      "pages": [
-        "guides/account-setup/system-requirements",
-        "guides/account-setup/quick-setup-guide",
-        "guides/account-setup/get-familiar-with-dashboard",
-        "guides/account-setup/how-to-import-and-export-diff-file-form",
-        "guides/account-setup/profile-and-notification-customizations",
-        "guides/account-setup/team-collaboration-overview",
-        "guides/account-setup/integration-overview"
-      ]
+      "pages": ["guides/create-a-free-account", "guides/account-setup"]
     },
     {
       "group": "Email Verifier",
-      "icon": "object-subtract",
       "pages": [
-        "guides/email-verifier/introduction",
-        "guides/email-verifier/step-by-step-introduction",
-        "guides/email-verifier/video-to-guide",
-        "guides/email-verifier/result-status-analysis",
-        "guides/email-verifier/how-clearout-maintains-accuracy-and-quality-result",
-        "guides/email-verifier/ai-verdict",
-        "guides/email-verifier/exporting-results"
-      ]
-    },
-    {
-      "group": "Quick Validation",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/quick-validation/instructions-with-vid",
-        "guides/quick-validation/supported-file-formats",
-        "guides/quick-validation/understanding-results",
-        "guides/quick-validation/why"
-      ]
-    },
-    {
-      "group": "Bulk Vadldation",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/bulk-validation/supported-file-format",
-        "guides/bulk-validation/instructions-with-vid",
-        "guides/bulk-validation/result-analysis",
-        "guides/bulk-validation/how-it-is-beneficial-with-maximum-accuracy"
+        "guides/email-verifier/overview",
+        "guides/email-verifier/quick-validation",
+        "guides/email-verifier/bulk-validation"
       ]
     },
     {
       "group": "Email Finder",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/email-finder/single-and-bulk-finder",
-        "guides/email-finder/linkedin-email-finder",
-        "guides/email-finder/email-confidence-score",
-        "guides/email-finder/exporting-results"
-      ]
+      "pages": ["guides/email-finder/overview"]
     },
     {
       "group": "Prospecting",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/prospecting/guide",
-        "guides/prospecting/understanding-dashboard",
-        "guides/prospecting/advanced-filtering-options",
-        "guides/prospecting/working-with-linkedin-and-wellfound",
-        "guides/prospecting/real-time-lead-discovery"
-      ]
+      "pages": ["guides/prospecting/overview"]
     },
     {
       "group": "Reverse Lookup",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/reverse-lookup/overview-and-guide",
-        "guides/reverse-lookup/enhancing-lead-scores-with-reverse-data"
-      ]
+      "pages": ["guides/reverse-lookup/overview"]
     },
     {
       "group": "Apps",
-      "icon": "object-subtract",
-      "pages": ["guides/#", "guides/#"]
+      "pages": ["guides/apps/overview"]
     },
     {
       "group": "Tools",
-      "icon": "object-subtract",
       "pages": [
         "guides/chrome-extension",
         "guides/google-sheets-add-ons",
@@ -244,23 +147,27 @@
     },
     {
       "group": "Team Management",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/team-management/how-to-collaborate-and-manage",
-        "guides/team-management/all-feature-and-tracking-activities",
-        "guides/team-management/benefits",
-        "guides/team-management/credits-management"
-      ]
+      "pages": ["guides/team-management/overview"]
     },
     {
       "group": "Credit Management",
-      "icon": "object-subtract",
-      "pages": [
-        "guides/credit-management/credit-monitoring",
-        "guides/credit-management/usage-history",
-        "guides/credit-management/credit-refill-and-plans",
-        "guides/credit-management/plans-for-team"
-      ]
+      "pages": ["guides/credit-management/overview"]
+    },
+    {
+      "group": "Billing",
+      "pages": ["guides/billing/overview"]
+    },
+    {
+      "group": "Activities",
+      "pages": ["guides/activities/overview"]
+    },
+    {
+      "group": "Reports & Analytics",
+      "pages": ["guides/reports-and-analytics/overview"]
+    },
+    {
+      "group": "Setting Optamization",
+      "pages": ["guides/setting-optamization/overview"]
     },
     {
       "group": "Integrations",
@@ -284,22 +191,57 @@
     },
     {
       "group": "Be an Integration Partner",
-      "icon": "object-subtract",
-      "pages": ["integrations/#"]
+      "pages": ["integrations/be-an-integration-partner/overview"]
     },
     {
       "group": "Connect Support",
-      "icon": "object-subtract",
-      "pages": ["troubleshooting/connect-support/descriptions"]
+      "pages": [
+        "troubleshooting/how-to-work-with-support",
+        "troubleshooting/clearout-slas"
+      ]
     },
     {
-      "group": "How to work with support",
-      "icon": "object-subtract",
+      "group": "Featured Answered",
+      "pages": ["troubleshooting/featured-answered/overview"]
+    },
+    {
+      "group": "Account Management",
       "pages": [
-        "troubleshooting/how-to-work-with-support/guide",
-        "troubleshooting/how-to-work-with-support/urgency-with-issue-categories",
-        "troubleshooting/how-to-work-with-support/history-dashboard"
+        "troubleshooting/not-able-to-signup",
+        "troubleshooting/recovering-access-to-account",
+        "troubleshooting/changing-account-plans",
+        "troubleshooting/team-access",
+        "troubleshooting/reset-password",
+        "troubleshooting/transfer"
       ]
+    },
+    {
+      "group": "Credit charged issues",
+      "pages": ["troubleshooting/credit-charged-issues/overview"]
+    },
+    {
+      "group": "Bulk activities",
+      "pages": ["troubleshooting/bulk-activities/overview"]
+    },
+    {
+      "group": "Javascript Widget",
+      "pages": ["troubleshooting/javascript-widget/overview"]
+    },
+    {
+      "group": "Data security",
+      "pages": ["troubleshooting/data-security/overview"]
+    },
+    {
+      "group": "Best practices",
+      "pages": ["troubleshooting/best-practices/overview"]
+    },
+    {
+      "group": "API Integration Issues",
+      "pages": ["troubleshooting/api-integration-issues/overview"]
+    },
+    {
+      "group": "UI Reference",
+      "pages": ["ui-reference/reference-ui"]
     }
   ],
 
