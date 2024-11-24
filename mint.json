@@ -256,7 +256,7 @@
 ],
 
 "seo": {
-  "indexHiddenPages": false
+  "indexHiddenPages": true
 },
 
 
