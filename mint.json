@@ -71,6 +71,11 @@
     {
       "name": "Troubleshooting",
       "url": "troubleshooting"
+    },
+    {
+      "name": "UI Reference",
+      "url": "ui-reference",
+      "isDefaultHidden": true
     }
   ],
   "anchors": [
@@ -234,6 +239,10 @@
     {
       "group": "API Integration Issues",
       "pages": ["troubleshooting/api-integration-issues/overview"]
+    },
+    {
+      "group": "UI Reference",
+      "pages": ["ui-reference/reference-ui"]
     }
   ],
 
@@ -256,7 +265,7 @@
 ],
 
 "seo": {
-  "indexHiddenPages": true
+  "indexHiddenPages": false
 },
 
 
