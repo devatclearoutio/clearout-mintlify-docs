@@ -253,6 +253,22 @@
     }
   ],
 
+  "versions": [
+  {
+    "name": "English",
+    "locale": "en"
+  },
+  {
+    "name": "Español",
+    "locale": "es"
+  }
+],
+
+"seo": {
+  "indexHiddenPages": true
+},
+
+
   "footerSocials": {
     "x": "https://twitter.com/ClearoutIo",
     "github": "https://github.com/clearoutio",
