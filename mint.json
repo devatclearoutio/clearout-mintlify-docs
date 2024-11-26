@@ -115,61 +115,73 @@
       "pages": ["guides/create-a-free-account", "guides/account-setup"]
     },
     {
-      "group": "Email Verifier",
+      "group": "Products",
       "pages": [
-        "guides/email-verifier/overview",
-        "guides/email-verifier/quick-validation",
-        "guides/email-verifier/bulk-validation"
+        "guides/products/overview",
+        {
+          "group": "Email Verifier",
+          "pages": [
+            "guides/products/email-verifier/quick-validation",
+            "guides/products/email-verifier/bulk-validation"
+          ]
+        },
+        {
+          "group": "Email Finder",
+          "pages": [
+            "guides/products/email-finder/single-and-bulk-finder",
+            "guides/products/email-finder/email-confidence-score",
+            "guides/products/email-finder/exporting-results"
+          ]
+        },
+        {
+          "group": "Prospecting",
+          "pages": [
+            "guides/products/prospecting/understanding-dashboard",
+            "guides/products/prospecting/advanced-filtering-option",
+            "guides/products/prospecting/working-with-linkedin-and-wellfound",
+            "guides/products/prospecting/real-time-lead-discovery"
+          ]
+        },
+        {
+          "group": "Reverse Lookup",
+          "pages": [
+            "guides/products/reverse-lookup/email-address",
+            "guides/products/reverse-lookup/linkedin",
+            "guides/products/reverse-lookup/domain"
+          ]
+        }
       ]
-    },
-    {
-      "group": "Email Finder",
-      "pages": ["guides/email-finder/overview"]
-    },
-    {
-      "group": "Prospecting",
-      "pages": ["guides/prospecting/overview"]
-    },
-    {
-      "group": "Reverse Lookup",
-      "pages": ["guides/reverse-lookup/overview"]
-    },
+    },   
     {
       "group": "Apps",
-      "pages": ["guides/apps/overview"]
+      "pages": ["guides/apps/client-app","guides/apps/server-app"]
     },
     {
       "group": "Tools",
       "pages": [
-        "guides/chrome-extension",
-        "guides/google-sheets-add-ons",
-        "guides/wordpress-plugin"
+        "guides/tools/chrome-extension",
+        "guides/tools/google-sheets-add-ons",
+        "guides/tools/wordpress-plugin"
       ]
-    },
-    {
-      "group": "Team Management",
-      "pages": ["guides/team-management/overview"]
-    },
-    {
-      "group": "Credit Management",
-      "pages": ["guides/credit-management/overview"]
-    },
-    {
-      "group": "Billing",
-      "pages": ["guides/billing/overview"]
-    },
-    {
-      "group": "Activities",
-      "pages": ["guides/activities/overview"]
-    },
+    },     
+     {
+      "group": "Manage",
+      "pages": [
+        "guides/manage/team-account",
+        "guides/manage/credit",
+        "guides/manage/billing",
+        "guides/manage/setting"
+      ]
+    }, 
     {
       "group": "Reports & Analytics",
-      "pages": ["guides/reports-and-analytics/overview"]
-    },
-    {
-      "group": "Setting Optamization",
-      "pages": ["guides/setting-optamization/overview"]
-    },
+      "pages": [
+        "guides/reports-and-analytics/overview",
+        "guides/reports-and-analytics/reporting-dashboards",
+        "guides/reports-and-analytics/analytics-reports",
+        "guides/reports-and-analytics/activities"
+      ]
+    }, 
     {
       "group": "Integrations",
       "icon": "object-subtract",
@@ -257,10 +269,6 @@
   {
     "name": "English",
     "locale": "en"
-  },
-  {
-    "name": "Español",
-    "locale": "es"
   }
 ],
 
