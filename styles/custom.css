@@ -7,3 +7,11 @@ color: #ffa700 !important;
 .highlight-color{
     color: #ffa700;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ff9e30; /* Heading color */
+  }
+  
+  body {
+    color: #333333; /* Body text color */
+  }

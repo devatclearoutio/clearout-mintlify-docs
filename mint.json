@@ -5,6 +5,17 @@
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
+  "font": {
+  "headings": {
+    "family": "Inter, sans-serif", 
+    "weight": 600   
+  },
+  "body": {
+    "family": "Inter, sans-serif", 
+    "weight": 600 
+  }
+},
+
   "favicon": "favicon.png",
   "colors": {
     "primary": "#ff9e30",
@@ -264,18 +275,6 @@
       "destination": ""
     }
   ],
-
-  "versions": [
-  {
-    "name": "English",
-    "locale": "en"
-  }
-],
-
-"seo": {
-  "indexHiddenPages": false
-},
-
 
   "footerSocials": {
     "x": "https://twitter.com/ClearoutIo",
