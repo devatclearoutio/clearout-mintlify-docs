@@ -7,8 +7,7 @@
   },
   "font": {
   "headings": {
-    "family": "Inter, sans-serif", 
-    "weight": 600   
+    "family": "Inter, sans-serif"
   },
   "body": {
     "family": "Inter, sans-serif"
