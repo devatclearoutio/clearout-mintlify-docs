@@ -1,0 +1,298 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Clearout Knowledge Base | Help Center",
+  "colors": {
+    "primary": "#ff9e30",
+    "light": "#ffa700",
+    "dark": "#334a4a"
+  },
+  "fonts": {
+    "heading": { "family": "Inter" },
+    "body":    { "family": "Inter" }
+  },
+  "favicon": "favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/welcome",
+              "introduction/quickstart",
+              "introduction/products",
+              "introduction/usecases"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "guides/create-a-free-account",
+              "guides/account-setup"
+            ]
+          },
+          {
+            "group": "Products",
+            "pages": [
+              "guides/products/overview",
+              {
+                "group": "Email Verifier",
+                "pages": [
+                  "guides/products/email-verifier/quick-validation",
+                  "guides/products/email-verifier/bulk-validation"
+                ]
+              },
+              {
+                "group": "Email Finder",
+                "pages": [
+                  "guides/products/email-finder/single-and-bulk-finder",
+                  "guides/products/email-finder/email-confidence-score",
+                  "guides/products/email-finder/exporting-results"
+                ]
+              },
+              {
+                "group": "Prospecting",
+                "pages": [
+                  "guides/products/prospecting/understanding-dashboard",
+                  "guides/products/prospecting/advanced-filtering-option",
+                  "guides/products/prospecting/working-with-linkedin-and-wellfound",
+                  "guides/products/prospecting/real-time-lead-discovery"
+                ]
+              },
+              {
+                "group": "Reverse Lookup",
+                "pages": [
+                  "guides/products/reverse-lookup/email-address",
+                  "guides/products/reverse-lookup/linkedin",
+                  "guides/products/reverse-lookup/domain"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Apps",
+            "pages": [
+              "guides/apps/client-app",
+              "guides/apps/server-app"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "guides/tools/chrome-extension",
+              "guides/tools/google-sheets-add-ons",
+              "guides/tools/wordpress-plugin"
+            ]
+          },
+          {
+            "group": "Manage",
+            "pages": [
+              "guides/manage/team-account",
+              "guides/manage/credit",
+              "guides/manage/billing",
+              "guides/manage/setting"
+            ]
+          },
+          {
+            "group": "Reports & Analytics",
+            "pages": [
+              "guides/reports-and-analytics/overview",
+              "guides/reports-and-analytics/reporting-dashboards",
+              "guides/reports-and-analytics/analytics-reports",
+              "guides/reports-and-analytics/activities"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Integrations",
+            "icon": "object-subtract",
+            "pages": [
+              "integrations/overview",
+              "integrations/hubspot",
+              "integrations/apollo",
+              "integrations/forms",
+              "integrations/chatbots",
+              "integrations/wordpress",
+              "integrations/google-sheets",
+              "integrations/zapier",
+              "integrations/make",
+              "integrations/pabbly",
+              "integrations/integrately",
+              "integrations/esp",
+              "integrations/crm",
+              "integrations/upcoming"
+            ]
+          },
+          {
+            "group": "Be an Integration Partner",
+            "pages": [
+              "integrations/be-an-integration-partner/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Troubleshooting",
+        "groups": [
+          {
+            "group": "Connect Support",
+            "pages": [
+              "troubleshooting/how-to-work-with-support",
+              "troubleshooting/clearout-slas"
+            ]
+          },
+          {
+            "group": "Featured Answered",
+            "pages": [
+              "troubleshooting/featured-answered/overview"
+            ]
+          },
+          {
+            "group": "Account Management",
+            "pages": [
+              "troubleshooting/not-able-to-signup",
+              "troubleshooting/recovering-access-to-account",
+              "troubleshooting/changing-account-plans",
+              "troubleshooting/team-access",
+              "troubleshooting/reset-password",
+              "troubleshooting/transfer"
+            ]
+          },
+          {
+            "group": "Credit charged issues",
+            "pages": [
+              "troubleshooting/credit-charged-issues/overview"
+            ]
+          },
+          {
+            "group": "Bulk activities",
+            "pages": [
+              "troubleshooting/bulk-activities/overview"
+            ]
+          },
+          {
+            "group": "Javascript Widget",
+            "pages": [
+              "troubleshooting/javascript-widget/overview"
+            ]
+          },
+          {
+            "group": "Data security",
+            "pages": [
+              "troubleshooting/data-security/overview"
+            ]
+          },
+          {
+            "group": "Best practices",
+            "pages": [
+              "troubleshooting/best-practices/overview"
+            ]
+          },
+          {
+            "group": "API Integration Issues",
+            "pages": [
+              "troubleshooting/api-integration-issues/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "UI Reference",
+        "hidden": true,
+        "groups": [
+          {
+            "group": "UI Reference",
+            "pages": [
+              "ui-reference/reference-ui"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "What's new",
+          "href": "https://changelog.clearout.io/",
+          "icon": "megaphone"
+        },
+        {
+          "anchor": "Roadmap",
+          "href": "https://calendly.com/clearout/connect-to-live-support",
+          "icon": "map"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://clearout.io/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#ffffff",
+      "dark": "#1c1c1c"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:us@clearout.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.clearout.io/dashboard"
+    }
+  },
+  "search": {
+    "prompt": "✨ Start typing, and voila!"
+  },
+  "seo": {
+    "metatags": {
+      "og:image": "https://github.com/mage-ai/mage-ai/blob/master/docs/og.png?raw=True",
+      "og:description": "Mage is an open-source, hybrid framework for transforming and integrating data. Our docs are the best place to learn about making magical data pipelines.",
+      "og:site_name": "Mage Docs",
+      "twitter:site": "@mage_ai"
+    },
+    "indexing": "navigable"
+  },
+  "footer": {
+    "socials": {
+      "x": "https://twitter.com/ClearoutIo",
+      "github": "https://github.com/clearoutio",
+      "linkedin": "https://www.linkedin.com/company/clearout-io",
+      "youtube": "https://www.youtube.com/channel/UCq5yYOL1LBmUnAQdRAuVMPA"
+    }
+  },
+  "integrations": {
+    "gtm": {
+      "tagId": "GTM-PR735ZD"
+    }
+  },
+  "redirects": [
+    {
+      "source": "",
+      "destination": ""
+    }
+  ]
+}
